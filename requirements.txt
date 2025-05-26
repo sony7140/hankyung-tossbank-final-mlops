@@ -1,0 +1,24 @@
+# 필수 패키지
+numpy
+pandas
+scikit-learn
+dvc
+mlflow
+fastapi
+uvicorn
+joblib
+
+# 선택 패키지 (모델 학습용)
+xgboost
+lightgbm
+torch
+transformers
+
+# API 테스트용
+requests
+python-multipart  # form-data 받을 경우
+
+# 노트북용
+jupyterlab
+matplotlib
+seaborn
