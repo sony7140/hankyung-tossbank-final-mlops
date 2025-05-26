@@ -1,0 +1,30 @@
+cat > .gitignore <<EOF
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.joblib
+
+# Conda
+.env
+.conda/
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+logs/
+mlruns/
+
+# Data
+data/raw/
+data/processed/
+
+# DVC
+.dvc/
+.dvcignore
+EOF
+
